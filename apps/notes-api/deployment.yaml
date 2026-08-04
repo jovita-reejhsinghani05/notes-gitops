@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/jovita-reejhsinghani05/notes-application:2bf4afbeb818885bd1c4a8029eabbc6deab80130
+        image: ghcr.io/jovita-reejhsinghani05/notes-application:55c6a65737af833ada3636434b999112fcfbccf5
         ports:
         - containerPort: 8080
         readinessProbe:
